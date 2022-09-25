@@ -45,7 +45,8 @@ font-size: 2.5em;
 
 .box label input
 {
-  /*appearance: none;*//*убирает кнопки*/
+ position: relative; 
+z-index: 10;
 }
 
 .box label i
@@ -61,10 +62,22 @@ font-size: 2.5em;
 .box label:nth-child(1) i
 {
 background-image: url(img/01.jpg);
+animation: animate 0.5s linear infinite;
 }
 .box label:nth-child(2) i {
   background-image: url(img/02.jpg);
 }
 .box label:nth-child(3) i {
   background-image: url(img/03.jpg);
+}
+
+@keyframes animate
+{
+  0%
+  {
+    background-position: 0px;
+  }
+        100% {
+          background-position:600px; /*крутит 1-ую картинку*/
+        }
 }
