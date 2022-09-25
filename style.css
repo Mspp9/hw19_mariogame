@@ -66,9 +66,11 @@ animation: animate 0.5s linear infinite;
 }
 .box label:nth-child(2) i {
   background-image: url(img/02.jpg);
+  animation: animate 0.5s linear infinite;
 }
 .box label:nth-child(3) i {
   background-image: url(img/03.jpg);
+  animation: animate 0.5s linear infinite;
 }
 
 @keyframes animate
