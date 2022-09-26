@@ -83,3 +83,8 @@ animation: animate 0.5s steps(3) infinite;
           background-position:600px; /*крутит 1-ую картинку*/
         }
 }
+
+.box label input:checked ~ i
+{
+  animation-play-state: paused; /*при нажатии на галочку останавливает картинку*/
+}
