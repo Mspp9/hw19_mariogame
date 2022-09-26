@@ -98,3 +98,9 @@ animation: animate 0.5s steps(3) infinite;
   background: #333;
   color: #fff;
 }
+
+.reset:active
+{
+  background: #d63c3c;
+  transform: scale(0.95);
+}
