@@ -88,3 +88,13 @@ animation: animate 0.5s steps(3) infinite;
 {
   animation-play-state: paused; /*при нажатии на галочку останавливает картинку*/
 }
+
+.reset
+{
+  margin-top: 40px;
+  border: none;
+  font-size: 1.25em;
+  padding: 10px 25px;
+  background: #333;
+  color: #fff;
+}
