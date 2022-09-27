@@ -24,5 +24,28 @@
   </label>
   </div>
   <button class="reset">Reset Game</button>
+  <script>
+    let chk1 = document.querySelector('#chk1');
+    let chk2 = document.querySelector('#chk2');
+    let chk3 = document.querySelector('#chk3');
+
+    chk1.onclick = function()
+    {
+      if (chk1.checked === true)
+      {
+        chk1.disabled = 'true';
+      }
+    }
+    chk2.onclick = function () {
+        if (chk2.checked === true) {
+          chk2.disabled = 'true';
+        }
+      }
+      chk3.onclick = function () {
+          if (chk3.checked === true) {
+            chk3.disabled = 'true';
+          }
+        }
+  </script>
 </body>
 </html>
