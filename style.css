@@ -46,6 +46,7 @@ font-size: 2.5em;
 .box label input
 {
  position: relative; 
+ appearance: none;
 z-index: 10;
 }
 
